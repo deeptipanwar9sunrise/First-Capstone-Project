@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BlazeDemo Suite">
+	<listeners>
+		<listener class-name="com.blazedemo.tests.MyListener" />
+	</listeners>
+	<test name="Regression Suite">
+
+		<groups>
+			<run>
+				<include name="smoke" />
+				<include name="functional" />
+				<include name="data-driven" />
+				<include name="negative" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="com.blazedemo.tests.FlightBookingTest" />
+		</classes>
+
+	</test>
+
+</suite>
+
