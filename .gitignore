@@ -1,6 +1,5 @@
 /target/
 /test-output/
-/reports/
 /logs/
 /screenshots/
 *.log
